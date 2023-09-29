@@ -8,6 +8,7 @@ public class AttrectoAcademyCourseAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AttrectoAcademyCourseAppApplication.class, args);
+		//Teszt, hogy ez is megy-e
 	}
 
 }
