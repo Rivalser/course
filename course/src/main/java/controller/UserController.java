@@ -29,9 +29,6 @@ private final UserService UserService;
 		return UserService.getAllUser();		
 	}
 	
-	@GetMapping(name = "/pelda")
-	public String pelda() {
-		return "Sziasztok";
-	}
+	
 	
 }
