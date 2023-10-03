@@ -1,7 +1,6 @@
-//kontrolleren megjelenítsük a dolgokat
 package dto;
 
-public class CourseDto {
+public class UserDto {
 
 	private long id;
 	
@@ -22,7 +21,5 @@ public class CourseDto {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	
 	
 }

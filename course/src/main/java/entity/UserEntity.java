@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "course")
 //Miért nem adta meg lehetőségként az "id attribute-ot"? Beállítás vagy fejlesztői környezet függő?
-public class CourseEntity {
+public class UserEntity {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

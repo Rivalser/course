@@ -1,3 +1,4 @@
+//Üzleti logikát idézi elő
 package service;
 
 import java.util.ArrayList;
