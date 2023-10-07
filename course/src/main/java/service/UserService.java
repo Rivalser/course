@@ -5,6 +5,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import controller.User;
+import dto.CourseDto;
 import dto.UserDto;
 import entity.UserEntity;
 import repository.UserRepository;
@@ -36,5 +38,15 @@ public class UserService {
 		return userDtos;
 		
 	}
-	
+
+	public List<UserDto> listAllUsers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public User getUserById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
