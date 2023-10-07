@@ -41,7 +41,7 @@ private final UserService UserService;
 	@GetMapping(value = "/{id}")
 	@ResponseStatus(HttpStatus.OK)
 	@Operation(summary = "Get a user by id", security = {@SecurityRequirement(name = "token")})
-	//?
+	//? 
 	public User getUserById(@PathVariable final Integer id) {
 		return UserService.getUserById(id);
 	}
