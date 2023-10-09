@@ -49,4 +49,9 @@ public class UserService {
 		return null;
 	}
 
+	public void deleteUser(Integer id) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
